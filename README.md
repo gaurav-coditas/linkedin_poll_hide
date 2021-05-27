@@ -1,5 +1,8 @@
 # Hide LinkedIn Polls
 
+## Working
+Extension runs every 3 seconds on linkedin page and hides any posts containing Polls it can find
+
 ## Installation
 
 ### Download installable zip
