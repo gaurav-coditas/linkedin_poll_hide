@@ -1,0 +1,1 @@
+let observer=new MutationObserver(t=>{t.forEach(e=>{e.target.classList.contains("feed-shared-poll")&&e.target.parentElement.remove()})});observer.observe(document.body,{childList:!0,subtree:!0,attributes:!1,characterData:!1});

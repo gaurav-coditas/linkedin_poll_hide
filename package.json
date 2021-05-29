@@ -1,0 +1,23 @@
+{
+  "name": "linkedin_poll_hide",
+  "version": "1.0.0",
+  "description": "## Extension detects if a poll element is introduced in the DOM and removes it.",
+  "main": "content.js",
+  "scripts": {
+    "build": "npx esbuild workFile.js --minify --outfile=./src/content.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mishra-Suraj/linkedin_poll_hide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mishra-Suraj/linkedin_poll_hide/issues"
+  },
+  "homepage": "https://github.com/Mishra-Suraj/linkedin_poll_hide#readme",
+  "dependencies": {
+    "esbuild": "^0.12.5"
+  }
+}
