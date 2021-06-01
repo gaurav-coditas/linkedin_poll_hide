@@ -4,7 +4,7 @@
   "description": "## Extension detects if a poll element is introduced in the DOM and removes it.",
   "main": "content.js",
   "scripts": {
-    "build": "npx esbuild workFile.js --minify --outfile=./src/content.js",
+    "build": "npx esbuild workFile.js --minify --outfile=./src/content.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
