@@ -1,7 +1,7 @@
 # Remove LinkedIn Polls
 
 ## Working
-Extension detects if a poll element is introduced in the DOM and removes it.
+Extension uses MutationObeserver API to keep a watch on DOM and remove any node with "feed-shared-poll" class.
 
 ## Installation
 
