@@ -1,4 +1,5 @@
 let observer = new MutationObserver(() => {
+    //Queryselector is waaaay too slow.
     const node = document.getElementsByClassName('feed-shared-poll');
     node[0].parentElement.remove();
 })
