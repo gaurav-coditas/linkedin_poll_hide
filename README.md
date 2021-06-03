@@ -1,7 +1,7 @@
-# Hide LinkedIn Polls
+# Remove LinkedIn Polls
 
 ## Working
-Extension runs every 3 seconds on linkedin page and hides any posts containing Polls it can find
+Extension uses MutationObeserver API to keep a watch on DOM and remove any node with "feed-shared-poll" class.
 
 ## Installation
 

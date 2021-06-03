@@ -1,6 +1,6 @@
 {
-    "name": "Linkedin post hider",
-    "version": "1.0",
+    "name": "Linkedin poll remover",
+    "version": "2.0.2",
     "manifest_version": 2,
     "content_scripts": [
         {
@@ -10,10 +10,10 @@
             "js": [
                 "content.js"
             ],
-            "run_at": "document_start"
+            "run_at": "document_end"
         }
     ],
     "browser_action": {
-        "default_title": "Linkedin post hider"
+        "default_title": "Linkedin poll remover"
     }
 }
